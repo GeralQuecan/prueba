@@ -1,0 +1,92 @@
+body{
+    width: 590px !important;
+    margin: auto !important;
+    background: #f5f8ff !important;
+}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #6582f8!important;
+}
+.row.box-1 {
+    margin: 30px 50px;
+    background: white;
+    border-radius: 10px;
+}
+.row.box-2 {
+    margin: 15px 50px;
+    background: white;
+    border-radius: 10px;
+}
+.w3-bar {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 10px;
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.w3-bar .w3-bar-item {
+    padding: 15px 20px 2px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    font-size: 20px;
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.w3-bar .w3-button {
+    white-space: normal;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-tooltip, .w3-display-container {
+    position: relative;
+    background-color:#f5f8ff;
+    text-align:center;
+}
+.w3-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.w3-large {
+    font-size: 18px!important;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: transparent; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: transparent;
+}
+
+#desplegar * { list-style:none;}
+#desplegar li a{color:#222; text-decoration:none;}
+#desplegar li a:before{ content:"\025b8"; color:#ddd; font-size: 30px;left:80%}
+#desplegar input[name="list"] {position: absolute;left: -1000em;}
+#desplegar label:before {content: "\025b8";position: absolute;left: 80%;}
+#desplegar label:before{ content:"\025b8"; margin-right:4px;}
+#desplegar input:checked ~ label:before{ content:"\025be";}
+#desplegar .interior{display: none;}
+#desplegar input:checked ~ ul{display:block;}
+ul#desplegar {text-align: left;}
